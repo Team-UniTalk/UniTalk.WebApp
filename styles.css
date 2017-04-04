@@ -1,0 +1,154 @@
+body {
+    background-color: lightgray;
+}
+
+.start {
+    background: #BF1F3C;
+    height: 100%;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+h4 {
+    color: #BF1F3C;
+    margin-bottom: -20px;
+}
+
+.btn, .btn:hover {
+    background: #BF1F3C;
+    color: #fff;
+    border: 1px solid #BF1F3C;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.btn:focus, .btn:active {
+    background-color: #BF1F3C !important;
+    outline: none !important;
+    border-color: #BF1F3C !important;
+
+}
+
+.btn:active {
+    box-shadow: none;
+}
+.btn > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#go {
+    margin-top; 20px !important;
+}
+
+
+.jumbotron {
+    margin-top: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.jumbotron > h1 {
+    text-align: center;
+}
+
+.input-group  {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child>.btn, .input-group-btn:first-child>.btn-group>.btn, .input-group-btn:first-child>.dropdown-toggle, .input-group-btn:last-child>.btn-group:not(:last-child)>.btn, .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.i
+
+.input-group btn {
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-bottom: 60px;
+}
+
+.list-group {
+    margin-top: 100px;
+
+}
+
+.list-group-item.active {
+    text-align: center;
+}
+
+
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    text-shadow: none;
+    background-image: none;
+    background-repeat: repeat-x;
+    border-color: #2b669a;
+    background-color: #BF1F3C;
+}
+
+.
+
+.navbar-brand {
+    font-size: 12pt;
+}
+
+.navbar-brand.right {
+    float: right;
+}
+
+.navbar-brand.left::before  {
+    font-family: FontAwesome;
+    content: "\f060";
+    margin-right: 10px;
+
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.right {
+        display: none;
+    }
+}
+
+
+
+.btn.btn-primary.refresh {
+    margin: auto;
+}
+
+.jumbotron.null {
+    background: none;
+    box-shadow: none;
+    margin-top: -80px;
+}
+
+.list-group-item.active {
+    background: #BF1F3C;
+    border: #BF1F3C;
+}
+
+.footnote {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: darkgray;
+    z-index: -1000;
+}
+
+.start > .footnote {
+    color: #CC4C63;
+}
